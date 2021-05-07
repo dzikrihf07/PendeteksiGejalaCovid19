@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert1" />
+            app:layout_constraintTop_toTopOf="@+id/pert2" />
 
         <TextView
             android:id="@+id/pert3"
@@ -125,7 +125,8 @@
             app:layout_constraintBottom_toBottomOf="@+id/pert3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/pert3"
-            app:layout_constraintTop_toBottomOf="@+id/pert2" />
+            app:layout_constraintTop_toTopOf="@+id/pert3"
+            app:layout_constraintVertical_bias="0.19999999" />
 
         <TextView
             android:id="@+id/pert4"
@@ -145,7 +146,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert4"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert3"/>
+            app:layout_constraintTop_toTopOf="@+id/pert4" />
 
         <TextView
             android:id="@+id/pert5"
@@ -165,7 +166,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert4"/>
+            app:layout_constraintTop_toTopOf="@+id/pert5" />
 
         <TextView
             android:id="@+id/pert6"
@@ -185,7 +186,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert5"/>
+            app:layout_constraintTop_toTopOf="@+id/pert6" />
 
         <TextView
             android:id="@+id/pert7"
@@ -205,7 +206,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert7"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert6"/>
+            app:layout_constraintTop_toTopOf="@+id/pert7" />
         <TextView
             android:id="@+id/pert8"
             android:layout_width="0dp"
@@ -224,7 +225,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert7"/>
+            app:layout_constraintTop_toTopOf="@+id/pert8" />
 
         <TextView
             android:id="@+id/pert9"
@@ -244,7 +245,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/pert9"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pert8"/>
+            app:layout_constraintTop_toTopOf="@+id/pert9" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnSubmit"
