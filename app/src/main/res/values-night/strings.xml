@@ -4,4 +4,8 @@
     <string name="selamat_datang">Selamat Datang</string>
     <string name="Nama_Aplikasi">Aplikasi Pendeteksi Gejala Covid - 19</string>
     <string name="di">Di</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
+    <string name="umur_anda">Umur Anda</string>
+    <string name="masukkan_umur_anda">Masukkan Umur Anda</string>
 </resources>

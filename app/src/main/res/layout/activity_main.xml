@@ -56,7 +56,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnMasuk"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:cardCornerRadius="15dp"
         app:cardElevation="20dp"
         app:layout_constraintVertical_bias="0.781"

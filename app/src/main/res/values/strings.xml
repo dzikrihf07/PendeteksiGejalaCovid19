@@ -4,4 +4,27 @@
     <string name="selamat_datang">Selamat Datang</string>
     <string name="Nama_Aplikasi">Aplikasi Pendeteksi Gejala Covid - 19</string>
     <string name="di">Di</string>
+    <string name="nama_anda">Nama Anda</string>
+    <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
+    <string name="umur_anda">Umur Anda</string>
+    <string name="masukkan_umur_anda">Masukkan Umur Anda</string>
+    <string name="Pertanyaan1">Apakah anda pernah memiliki kontak dengan orang yang terpapar Covid-19 ?</string>
+    <string name="Pertanyaan2">Apakah anda  baru saja bepergian atau tinggal di daerah yang memiliki kasus infeksi virus Corona ?</string>
+    <string name="Pertanyaan3">Berapa suhu tubuh anda saat ini ?</string>
+    <string name="Pertanyaan4">Apakah anda merasakan batuk kering saat ini ?</string>
+    <string name="Pertanyaan5">Apakah anda merasakan sesak nafas saat ini ?</string>
+    <string name="Pertanyaan6">Apakah anda merasa kehilangan kemampuan mengecap rasa saat ini ?</string>
+    <string name="Pertanyaan7">Apakah anda merasa kehilangan kemampuan untuk mencium bau saat ini ?</string>
+    <string name="Pertanyaan8">Apakah anda merasakan nyeri dada atau tertekan pada dada  saat ini ?</string>
+    <string name="Pertanyaan9">Apakah terdapat ruam dikulit anda ?</string>
+    <string name="submit">Submit</string>
+    <string-array name="dropdownSuhu">
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
 </resources>
