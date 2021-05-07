@@ -19,12 +19,12 @@
     <string name="Pertanyaan9">Apakah terdapat ruam dikulit anda ?</string>
     <string name="submit">Submit</string>
     <string-array name="dropdownSuhu">
-        <item>34</item>
-        <item>35</item>
-        <item>36</item>
-        <item>37</item>
-        <item>38</item>
-        <item>39</item>
-        <item>40</item>
+        <item>34\u00B0</item>
+        <item>35\u00B0</item>
+        <item>36\u00B0</item>
+        <item>37\u00B0</item>
+        <item>38\u00B0</item>
+        <item>39\u00B0</item>
+        <item>40\u00B0</item>
     </string-array>
 </resources>
