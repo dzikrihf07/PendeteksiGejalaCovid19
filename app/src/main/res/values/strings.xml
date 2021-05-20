@@ -18,6 +18,8 @@
     <string name="Pertanyaan8">Apakah anda merasakan nyeri dada atau tertekan pada dada  saat ini ?</string>
     <string name="Pertanyaan9">Apakah terdapat ruam dikulit anda ?</string>
     <string name="submit">Submit</string>
+    <string name="hasil_deteksi">Hasil Deteksi</string>
+    <string name="rekomendasi_tindakan">Rekomendasi Tindakan</string>
     <string-array name="dropdownSuhu">
         <item>34\u00B0</item>
         <item>35\u00B0</item>
@@ -27,4 +29,20 @@
         <item>39\u00B0</item>
         <item>40\u00B0</item>
     </string-array>
+    <string-array name="hslTxtSuhu">
+        <item>Suhu Terlalu Rendah</item>
+        <item>Suhu Terlalu Rendah</item>
+        <item>Suhu Normal</item>
+        <item>Suhu Normal</item>
+        <item>Suhu Normal</item>
+        <item>Suhu Terlalu Tinggi</item>
+        <item>Suhu Terlalu Tinggi</item>
+    </string-array>
+    <string name="terdeteksi">Anda Terdeteksi Memiliki Gejala Covid - 19</string>
+    <string name="rekomTerdeteksi">Rekomendasi Terdeteksi</string>
+    <string name="tdkTerdeteksi">Anda Tidak Terdeteksi Memiliki Gejala Covid - 19</string>
+    <string name="rekomTdkTerdeteksi">Rekomendasi Tidak Terdeteksi</string>
+    <string name="suhu_tubuh">Suhu Tubuh</string>
+    <string name="hslTxtUmur">Umur</string>
+    <string name="hslTxtNama">Nama</string>
 </resources>

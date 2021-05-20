@@ -8,4 +8,9 @@
     <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
     <string name="umur_anda">Umur Anda</string>
     <string name="masukkan_umur_anda">Masukkan Umur Anda</string>
+    <string name="hasil_deteksi">Hasil Deteksi</string>
+    <string name="rekomendasi_tindakan">Rekomendasi Tindakan</string>
+    <string name="suhu_tubuh">Suhu Tubuh</string>
+    <string name="hasTxtUmur">Umur</string>
+    <string name="hslTxtNama">Nama</string>
 </resources>
