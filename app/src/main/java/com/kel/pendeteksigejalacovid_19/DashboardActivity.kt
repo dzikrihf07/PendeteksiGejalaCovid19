@@ -18,7 +18,7 @@ class DashboardActivity : AppCompatActivity() {
         val inNama: EditText? = findViewById(R.id.NamaEdit)
         val inUmur: EditText? = findViewById(R.id.UmurEdit)
 
-        val inSuhu:Spinner? = findViewById(R.id.spinner)
+        val inSuhu: Spinner? = findViewById(R.id.spinner)
 
         val cbPert1: CheckBox? = findViewById(R.id.checkBox1)
         val cbPert2: CheckBox? = findViewById(R.id.checkBox2)
