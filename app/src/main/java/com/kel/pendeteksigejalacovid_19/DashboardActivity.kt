@@ -46,10 +46,233 @@ class DashboardActivity : AppCompatActivity() {
             var hsl = ""
             var hslRekom = ""
 
-            if (!(!cbPert1?.isChecked!! || !cbPert2?.isChecked!! || !cbPert4?.isChecked!! || !cbPert5?.isChecked!! || !cbPert6?.isChecked!! || !cbPert7?.isChecked!! || !cbPert8?.isChecked!! || !cbPert9?.isChecked!!)) {
+            //if (!(!cbPert1?.isChecked!! || !cbPert2?.isChecked!! || !cbPert4?.isChecked!! || !cbPert5?.isChecked!! || !cbPert6?.isChecked!! || !cbPert7?.isChecked!! || !cbPert8?.isChecked!! || !cbPert9?.isChecked!!)) {
+                //hsl += getString(R.string.terdeteksi)
+                //hslRekom += getString(R.string.rekomTerdeteksi)
+            //}
+            if (!(!cbPert8?.isChecked!! || !cbPert5?.isChecked!!)) {
                 hsl += getString(R.string.terdeteksi)
                 hslRekom += getString(R.string.rekomTerdeteksi)
-            } else {
+            }
+            else if (!(!cbPert7?.isChecked!! || !cbPert6?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4?.isChecked!! || !cbPert5?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5?.isChecked!! || !cbPert6?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5?.isChecked!! || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5?.isChecked!! || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert5?.isChecked!! || !cbPert6?.isChecked!! || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert6?.isChecked!! || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2?.isChecked!! || !cbPert4.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1?.isChecked!! || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert6.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!! )) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+
+            else if (!(!cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+
+            else if (!(!cbPert1.isChecked || !cbPert2.isChecked || !cbPert4.isChecked || !cbPert5.isChecked || !cbPert6.isChecked || !cbPert7.isChecked || !cbPert8.isChecked || !cbPert9?.isChecked!!)) {
+                hsl += getString(R.string.terdeteksi)
+                hslRekom += getString(R.string.rekomTerdeteksi)
+            }
+            else {
                 hsl += getString(R.string.tdkTerdeteksi)
                 hslRekom += getString(R.string.rekomTdkTerdeteksi)
             }

@@ -39,9 +39,9 @@
         <item>Suhu Terlalu Tinggi</item>
     </string-array>
     <string name="terdeteksi">Anda Terdeteksi Memiliki Gejala Covid - 19</string>
-    <string name="rekomTerdeteksi">Rekomendasi Terdeteksi</string>
+    <string name="rekomTerdeteksi">Hasil deteksi menunjukkan bahwa pada pengguna atau spesimen terdeteksi adanya material genetik SARSCoV-2. Mohon untuk melakukan pemeriksaan yang lebih lanjut dan melakukan swab anti-gen agar dapat mendapatkan penanganan yang sesuai klinis. Karena kecepatan penanganan sangat penting untuk keberhasilan pengobatan.</string>
     <string name="tdkTerdeteksi">Anda Tidak Terdeteksi Memiliki Gejala Covid - 19</string>
-    <string name="rekomTdkTerdeteksi">Rekomendasi Tidak Terdeteksi</string>
+    <string name="rekomTdkTerdeteksi">Hasil deteksi negatif menunjukkan bahwa pada pengguna atau spesimen tidak terdeteksi adanya material genetik SARSCoV-2. Tetap jaga kesehatan dan selalu menjaga 3M (Memakai masker, menjaga jarak, dan mencuci tangan).</string>
     <string name="suhu_tubuh">Suhu Tubuh</string>
     <string name="hslTxtUmur">Umur</string>
     <string name="hslTxtNama">Nama</string>
