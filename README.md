@@ -1,8 +1,10 @@
 # PendeteksiGejalaCovid19
- Tugas Kelompok Mobile Programing
+Tugas Kelompok Mobile Programing
 
-Anggota:
-Asry Yuniarti
-Dodi Muhamad Iqbal
-Hasydan Dzikri Fathoni
-Naura Meyriska
+
+## Anggota
+
+- Asry Yuniarti
+- Dodi Muhamad Iqbal
+- Hasydan Dzikri Fathoni
+- Naura Meyriska
